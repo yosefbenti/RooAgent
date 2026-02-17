@@ -1,17 +1,16 @@
 {
+  "type": "module",
   "name": "RooAgent",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "AI-governed IDE extension",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "packageManager": "pnpm@10.30.0",
+  "author": "Yosef",
+  "license": "MIT",
   "dependencies": {
     "crypto": "^1.0.1",
-    "js-yaml": "^4.1.1"
+    "js-yaml": "^4.1.0"
   }
 }

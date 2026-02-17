@@ -1,0 +1,11 @@
+intents:
+  - id: refactor-function
+    description: "Refactor function for readability"
+    constraints:
+      - "No breaking changes"
+      - "Update related docs"
+  - id: delete-temp-files
+    description: "Remove temporary files"
+    constraints:
+      - "Only .tmp files"
+      - "Ask for confirmation"
